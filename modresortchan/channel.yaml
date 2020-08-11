@@ -1,10 +1,10 @@
 apiVersion: app.ibm.com/v1alpha1
 kind: Channel
 metadata:
-  name: lab0-modresort-devchan
-  namespace: lab0-modresort-entitlement
+  name: modresort-devchan
+  namespace: modresort-entitlement
   labels:
-    app: lab0-modresortchan
+    app: modresortchan
 spec:
   type: Namespace
-  pathname: lab0-modresort-entitlement
+  pathname: modresort-entitlement
